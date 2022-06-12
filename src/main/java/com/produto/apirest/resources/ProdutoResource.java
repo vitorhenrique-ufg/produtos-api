@@ -40,7 +40,7 @@ public class ProdutoResource
         return _repositorioProduto.save(produto);
     }
 
-    @ApiOperation(value="Deleta um produto")
+    @ApiOperation(value="Deleta um produto ")
     @DeleteMapping("/produto")
     public void deletaProduto(@RequestBody Produto produto){
 
